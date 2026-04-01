@@ -1,26 +1,21 @@
 # Práctica 2 - Python 2026
+ Andres Sales - 018505/2
 
 ## Estructura del proyecto
-
-- `notebooks/`: contiene el notebook con la resolucion de los ejercicios.
-- `src/`: contiene funciones auxiliares utilizadas en la resolucion.
-- `README.md`: instrucciones de instalacion y ejecucion.
+- `notebooks/` → Notebooks con la resolución de los ejercicios
+- `src/` → Archivos `.py` con las funciones
+- `venv/` → Entorno virtual (no se sube a GitHub)
+- `requirements.txt` → Dependencias del proyecto
 
 ## Requisitos
+- Python 3.13.x
+- Visual Studio Code + extensiones **Python** y **Jupyter**
 
-- Python 3.x
-- Visual Studio Code
-- Extensiones de Python y Jupyter para VS Code
+## Instalación y ejecución
 
-## Instalacion
+1. Clonar o descargar el repositorio.
 
-1. Clonar o descargar este repositorio.
-2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Instalar las extensiones:
-   - Python
-   - Jupyter
-
-Si es necesario, instalar Jupyter con:
-
-```bash
-pip install notebook ipykernel
+2. Crear y activar el entorno virtual (solo la primera vez):
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
