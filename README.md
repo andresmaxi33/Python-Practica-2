@@ -2,7 +2,7 @@
  Andres Sales - 018505/2
 
 ## Estructura del proyecto
-- `notebooks/` → Notebooks con la resolución de los ejercicios
+- `notebooks/` → Notebooks con la resolucion de los ejercicios
 - `src/` → Archivos `.py` con las funciones
 - `venv/` → Entorno virtual (no se sube a GitHub)
 - `requirements.txt` → Dependencias del proyecto
@@ -19,3 +19,14 @@
    ```bash
    python -m venv venv
    venv\Scripts\activate
+
+## Cómo ejecutar los ejercicios (paso a paso)
+
+1. Abri la carpeta `Practica_2` en Visual Studio Code.
+2. CTRL + SHIFT + P, hace clic donde dice el interprete de Python y selecciona:
+   - `Python 3.13.x ('venv': venv)` (o `./venv/Scripts/python.exe`)
+3. Abri la carpeta `notebooks/`.
+4. Abri cualquiera de los archivos `.ipynb` (ej: `ejercicio7.ipynb`).
+5. Hacelo clic en **Ejecutar todo**.
+
+ El notebook deberia ejecutarse sin errores.
